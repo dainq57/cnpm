@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#wrapper {
+    width: 420px;
+    background-color: #C9EDFF;
+    margin: 0 auto;
+    padding: 15px;
+    margin-top:  20px;
+    border : 2px solid #80CF04;
+    border-radius: 15px;
+}
+#wrapper .table{
+    float: right;
+    border-radius: 5px;
+    background-color: #FDFFDE;
+    padding: 5px 0px 5px 5px;
+    /*padding-right: 30px;*/
+}
+#wrapper .select {
+    margin: 0px 0px 0px 85px;
+    border-radius: 5px;
+    background-color: #BEDCED;
+}
+#wrapper label {
+    margin-left: 30px;
+    margin-top: 100px;
+}
+#wrapper .add_user {
+    margin: 0px 0px 0px 170px;
+    padding:10px 15px 5px 10px;
+    cursor:  pointer;
+    border-radius: 2px;
+    /*background-color: #BEDCED;*/
+    /*background-color: #FDFFDE;*/
+}
+#wrapper h3 {
+    margin: 0px 0px 0px 70px;
+}
+#wrapper h4 {
+    margin: 0px 0px 0px 100px;
+}
+#wrapper .add_user input:hover {
+    background-color: #8CCA33;
+}
+.add_user:hover{
+    background:#8CCA33;
+}

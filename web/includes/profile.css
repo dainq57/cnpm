@@ -1,0 +1,79 @@
+body {
+    /**
+ * background-color: pink;
+ */
+}
+#layout {
+   margin: 50px 62px;
+   padding: 10px;
+   border-radius: 15px;
+
+    /*border: 2px solid #9ECF7A;*/
+    background-color: #E6F5FA;
+}
+#layout .save {
+    /*display: block;*/
+    width: 93px; height: 50px;
+    background: url(../image/button-save.png) 0px -50px no-repeat;
+    border-radius: 10px;
+}
+#layout .save:hover{
+    background-position: 0px 0px;
+}
+label{
+    float: left;
+}
+.one-one input, .two input, .three input, .four input {
+    float: right;
+    margin-right: 10px;
+    padding: 5px 0 5px 0;
+    /*background-color: #FDFFDE;*/
+}
+.one-one .highlight {
+    background-color: #9CBEE7;
+}
+.one {
+    width: 480px; height: 300px;
+    margin-top: 10px;
+    
+}
+.one-one {
+    width: 400px;
+    margin-left: 230px;
+    margin-top: 7px;
+    border-style: hidden; 
+}
+.one-two {
+    width: 130px; height: 180px;
+    margin-left: 40px;
+    margin-top: -230px;
+}
+.one-three {
+    width: 90px; 
+    margin-left: 65px;
+    margin-top: 10px;
+    border-style: hidden;
+}
+.two {
+    width: 550px;  height: 301px;
+    margin-left: 650px;
+    margin-top: -305px;
+}
+.three {
+    width: 630px; height: 170px;
+    margin-top: 40px;
+}
+.four {
+    width: 550px;  height: 170px;
+    margin-left: 650px;
+    margin-top: -175px;
+}
+.three label {
+    margin-left:  220px;
+}
+.two label, .four label {
+    margin-left: 100px;
+}
+fieldset legend {
+    text-align: center;
+}

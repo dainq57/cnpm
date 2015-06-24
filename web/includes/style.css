@@ -1,0 +1,126 @@
+	body{
+    background-image: url(../image/11.jpg);
+    margin: 0;
+    padding: 0;
+}
+#logo {
+    margin: 10px auto auto 200px;
+    cursor: pointer;
+}
+#wrapper {
+    font-family:Arial, Helvetica, sans-serif;
+    background: #F6EDC6;
+    width: 960px;
+    height: 468px;
+    margin: 10px 194px 0px 194px;
+    padding: 12px 5px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+}
+.picture{
+    width: 631px; height: 468px;
+    margin: 0px -5px 0px 3px ;
+    padding: 0;
+    position: relative;
+    border: 2px dotted blue;
+    border-radius: 10px;
+}
+ul#switcher {
+    list-style: none;
+}
+ul#switcher li a.link{
+    height: 320px; width: 630px;
+    position: absolute;
+    margin: -15px 0px 30px -40px;  
+}
+#one {
+    background: url(../image/6.jpg) no-repeat;
+    z-index: 2;
+}
+#two {
+    background: url(../image/8.jpg) no-repeat;
+}
+#three {
+    background: url(../image/9.jpg) no-repeat;
+}
+#four {
+    background: url(../image/12.jpg) no-repeat;
+}
+#one span{
+    position: absolute;
+    height: 136px;width: 157px;
+    bottom: -145px;
+    cursor: pointer;
+    background:  url(../image/6_small.jpg) no-repeat;
+}
+#two span{
+    position: absolute;
+    height: 136px; width: 157px;
+    bottom: -145px; left: 160px;
+    cursor: pointer;
+    background:  url(../image/8_small.jpg) no-repeat;
+}
+#three span{
+    position: absolute;
+    height: 136px;width: 157px;
+    bottom: -145px; left: 320px;
+    cursor: pointer;
+    background:  url(../image/9_small.jpg) no-repeat;
+}
+#four span{
+    position: absolute;
+    height: 136px;width: 157px;
+    bottom: -145px; left: 480px;
+    cursor: pointer;
+    background:  url(../image/12_small.jpg) no-repeat;
+}
+ .link:hover {
+    z-index: 1000;
+}
+.info{
+    width: 300px; height: 468px;
+    margin: -470px 5px 10px 650px;
+    padding: 0px 5px 0px -10px;
+    border: 2px dashed #8ca2d4;
+    border-radius: 10px; 
+}
+.info1{
+    height: 425px;
+    background-color: #FFC533;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px;
+    border-radius: 5px;        
+}
+.info1 span {
+    text-align: center;
+    position: fixed;
+    bottom: 100px;
+    right:260px;
+}
+h1{
+    text-align: center;
+}
+.info1 .checkbox input{
+    border-radius: 10px;
+}
+.checkbox {
+    border-radius: 10px;
+}
+.lg{
+    height: 30px;       
+    size: 10px;
+    border-radius: 10px;
+}
+
+#button {
+	
+    margin: 20px 0px 0px 90px;
+    cursor: pointer;
+}
+#button:hover{
+    background-color: #999898;
+}
+.checkbox{
+    margin: 0px 0px 0px 30px;
+    cursor: pointer;
+}
